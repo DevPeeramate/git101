@@ -1,4 +1,10 @@
 # How to use git
+### Setting
+```cmd
+git config --global user.name "Your Name"       # Set User
+git config --global user.email "your@email.com" # Set Email
+git config --list  # check all settings
+```
 ### start project use :
 ```cmd
 git init
