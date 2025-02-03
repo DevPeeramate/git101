@@ -76,7 +76,7 @@ git log                   # check history commit
 git log --oneline --graph # check a brief, structured history
 git diff                  # See the differences between changed files
 ```
-### Untrack Git
+### Untrack Git For Window
 ```cmd
 rmdir /s /q .git
 dir /a             # Check
