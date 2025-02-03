@@ -3,7 +3,7 @@
 ```cmd
 git config --global user.name "Your Name"       # Set User
 git config --global user.email "your@email.com" # Set Email
-git config --list  # check all settings
+git config --list                               # check all settings
 ```
 ### start project use :
 ```cmd
