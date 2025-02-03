@@ -30,6 +30,7 @@ git remote remove origin
 ```cmd
 git clone <repo_url>
 git clone -b <branch_name> --single-branch <repo_url>
+git branch -a # Check branch in repo that clone
 ```
 ### check status file
 ```cmd
