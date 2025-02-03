@@ -46,8 +46,8 @@ git pull origin <current_branch>
 ```cmd
 git checkout -- <file>     # cancel change
 git reset HEAD <file>      # out to Staging Area
-git reset --soft HEAD~1    # delete commit latest (store code)
-git reset --hard HEAD~1    # delete commit latest (delete all code)
+git reset --soft HEAD    # delete commit latest (store code)
+git reset --hard HEAD   # delete commit latest (delete all code)
 ```
 ### manage branch
 ```cmd
