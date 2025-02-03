@@ -5,6 +5,11 @@ git config --global user.name "Your Name"       # Set User
 git config --global user.email "your@email.com" # Set Email
 git config --list                               # check all settings
 ```
+### If you want set this only repository
+```cmd
+git config user.name "Your Name"
+git config user.email "your_email@example.com"
+```
 ### start project use :
 ```cmd
 git init
