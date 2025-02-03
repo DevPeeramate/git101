@@ -46,17 +46,18 @@ git pull origin <current_branch>
 ```cmd
 git checkout -- <file>     # cancel change
 git reset HEAD <file>      # out to Staging Area
-git reset --soft HEAD    # delete commit latest (store code)
-git reset --hard HEAD   # delete commit latest (delete all code)
+git reset HEAD .           # out all file to Staging Area
+git reset --soft HEAD      # delete commit latest (store code)
+git reset --hard HEAD      # delete commit latest (delete all code)
 ```
 ### manage branch
 ```cmd
-git branch                 # list branch
-git branch <branch-name>   # create new branch 
-git checkout <branch-name> # switch other branch 
-git checkout -b <branch>   # create new branch and switch now
-git merge <branch-name>    # sum branch into current branch
-git branch -d <branch-name> # delete branch
+git branch                   # list branch
+git branch <branch-name>     # create new branch 
+git checkout <branch-name>   # switch other branch 
+git checkout -b <branch>     # create new branch and switch now
+git merge <branch-name>      # sum branch into current branch
+git branch -d <branch-name>  # delete branch
 ```
 ### check history and compare
 ```cmd
