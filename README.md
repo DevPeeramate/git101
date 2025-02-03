@@ -63,6 +63,7 @@ git reset --hard HEAD      # delete commit latest (delete all code)
 ```
 ### manage branch
 ```cmd
+git fetch                    # pull info repo
 git branch                   # list branch
 git branch <branch-name>     # create new branch 
 git checkout <branch-name>   # switch other branch 
